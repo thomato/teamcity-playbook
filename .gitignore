@@ -1,2 +1,6 @@
 .idea/
+
 hosts.ini
+hosts
+
+vars/default.yml
