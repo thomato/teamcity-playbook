@@ -136,3 +136,12 @@
         name: "google-chrome-stable"
         state: latest
         update_cache: true
+
+    - name: Install Firefox
+      become: yes
+      apt:
+        name:
+          - firefox
+        state: present
+        install_recommends: yes
+
