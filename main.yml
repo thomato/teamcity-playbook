@@ -104,7 +104,7 @@
     - name: Create a TeamCity agent container
       docker_container:
         name: teamcity-agent
-        image: jetbrains/teamcity-agent:latest
+        image: nandoth/teamcity-agent-browsers:latest
         privileged: "true"
         env:
           SERVER_URL: "http://teamcity-server:8111"
